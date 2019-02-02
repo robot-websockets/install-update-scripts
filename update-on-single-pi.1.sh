@@ -1,8 +1,6 @@
 #!/bin/bash
 
 pm2 delete all
-sudo rm -r /home/pi/trainbot-all
-mkdir /home/pi/trainbot-all
 cd /home/pi/trainbot-all
 
 
