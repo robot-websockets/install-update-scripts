@@ -9,7 +9,7 @@ ls
 
 
 
-cd /home/pi/trainbot-1/-proximity-tester
+cd /home/pi/trainbot-1/proximity-tester
 git stash save "temp"
 git pull origin
 npm install
