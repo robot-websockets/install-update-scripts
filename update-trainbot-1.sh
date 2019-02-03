@@ -12,7 +12,7 @@ ls
 cd /home/pi/trainbot-1/proximity-tester
 git stash save "temp"
 git pull origin
-npm install
+# npm install
 
 
 cd /home/pi/trainbot-1/motor-controller
