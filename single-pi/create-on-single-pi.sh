@@ -21,10 +21,10 @@ cd /home/pi/trainbot-all
 # insert your github details
 # this is needed if you need to do a pull request
 # or if it is a repo that you need to log in to download.
-git config --global user.name "iamamuppet"
-git config --global user.email "iamamuppet@hotmail.com"
+# git config --global user.name "iamamuppet"
+# git config --global user.email "iamamuppet@hotmail.com"
 
-git clone https://github.com/robot-websockets/proximity-tester.git
+git clone https://github.com/robot-websockets/proximity-sensor.git
 git clone https://github.com/robot-websockets/motor-controller.git
 
 git clone https://github.com/robot-websockets/barcode-server.git
@@ -40,10 +40,15 @@ cd /home/pi/trainbot-1/main-server
 git checkout single_pi
 npm install
 
-cd /home/pi/trainbot-all/proximity-tester
-npm install
+# if you don't have a proximity sensor use this instead.
+# git clone https://github.com/robot-websockets/proximity-tester.git
+# cd /home/pi/trainbot-all/proximity-tester
+# npm install
 
-cd /home/pi/trainbot-all/trainbot-all
-pm2 start ecosystem.config.js
+
+pm2 start /home/pi/trainbot-all/trainbot-all/ecosystem.config.js
 pm2 save
+
+# copy and paste the output from the following.
 pm2 startup
+pm2 save

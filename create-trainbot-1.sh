@@ -11,10 +11,10 @@ mkdir /home/pi/trainbot-1
 cd /home/pi/trainbot-1
 ls
 
-git config --global user.name "CosmaP"
-git config --global user.email "cosma@papouis.net"
+# git config --global user.name "donkydoo"
+# git config --global user.email "houlerinjuly@frozen.com"
 
-git clone https://github.com/robot-websockets/proximity-tester.git
+git clone https://github.com/robot-websockets/proximity-sensor.git
 git clone https://github.com/robot-websockets/motor-controller.git
 git clone https://github.com/robot-websockets/trainbot-1-commands.git
 

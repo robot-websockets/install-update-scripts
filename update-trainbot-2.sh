@@ -26,4 +26,7 @@ cd /home/pi/trainbot-2/trainbot-2-commands
 git stash save "temp"
 git pull origin
 git checkout master
+# check ip adresses are correct.
+printf "\n\nCheck your ip address is correct.\n\n"
+nano ecosystem.config.js
 pm2 start ecosystem.config.js

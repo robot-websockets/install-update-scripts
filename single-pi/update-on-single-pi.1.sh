@@ -8,10 +8,10 @@ cd /home/pi/trainbot-all/motor-controller
 git stash save "temp"
 git pull origin
 
-cd /home/pi/trainbot-all/proximity-tester
+cd /home/pi/trainbot-all/proximity-sensor
 git stash save "temp"
 git pull origin
-npm install
+
 
 cd /home/pi/trainbot-all/main-server
 git stash save "temp"
