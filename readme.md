@@ -12,6 +12,9 @@ now clone this repo to both pi's in the home folder
 
 ```git
 git clone https://github.com/robot-websockets/install-update-scripts.git
+```
+now open that folder
+```bash
 cd install-update-scripts
 ```
 
